@@ -8,6 +8,14 @@
 
 :root{
   font-family: 'Plus Jarkata Sans';
+
+  background: #F6F7F9;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
 .primary-btn{
@@ -18,4 +26,7 @@
 }
 .bg-grey{
   @apply bg-[#90A3BF];
+}
+.border-lightgrey{
+  @apply border-[#C3D4E9];
 }
