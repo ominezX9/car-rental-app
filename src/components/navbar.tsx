@@ -8,7 +8,7 @@ import Cog from '../assets/icons/setting-2.svg';
 
 const NavBar = () => {
   return (
-    <div className='flex items-center  justify-between nav-header px-10 py-5 bg-white'>
+    <div className='flex items-center  justify-between nav-header px-10 py-5 bg-white border-b-2 border-[#C3D4E955]'>
         <div className="flex items-center justify-between">
             <div className="title mr-[80px]">
                 <h1 className="text-primary text-3xl font-bold">MORENT</h1>
