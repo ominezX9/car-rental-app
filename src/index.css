@@ -24,9 +24,15 @@
 .text-primary{
   @apply text-[#3563E9];
 }
+.bg-danger{
+  @apply bg-[#FF4423]
+}
 .bg-grey{
   @apply bg-[#90A3BF];
 }
 .border-lightgrey{
   @apply border-[#C3D4E9];
+}
+.flex-and-center{
+  @apply flex items-center justify-center;
 }
