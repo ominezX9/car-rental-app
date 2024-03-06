@@ -24,7 +24,7 @@ const NavBar = () => {
 
             </div>
             <div className="notifications relative">
-
+                <span className='bleep bg-red rounded-full w-1 h-1'></span>
             </div>
             <div className="settings">
 
