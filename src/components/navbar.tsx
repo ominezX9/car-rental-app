@@ -2,9 +2,9 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div className='nav-header'>
+    <div className='nav-header p-10 bg-white'>
         <div className="title">
-            <h1>MORENT</h1>
+            <h1 className="text-primary text-3xl font-bold">MORENT</h1>
         </div>
 
         <div className="search">
