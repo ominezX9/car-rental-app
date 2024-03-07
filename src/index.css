@@ -30,6 +30,12 @@
 .bg-secondary{
   @apply bg-[#5CAFFC];
 }
+.bg-primary-opacity{
+  @apply bg-[#3563E9]/60;
+}
+.bg-secondary-opacity{
+  @apply bg-[#5CAFFC]/60;
+}
 .bg-danger{
   @apply bg-[#FF4423]
 }
@@ -38,6 +44,9 @@
 }
 .border-lightgrey{
   @apply border-[#C3D4E9];
+}
+.border-lightergrey{
+  @apply border-[#C3D4E9]/40;
 }
 .flex-and-center{
   @apply flex items-center justify-center;

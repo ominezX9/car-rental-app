@@ -4,6 +4,7 @@ import CarOne from '../assets/images/cars_ads/Car1.svg';
 import CarTwo from '../assets/images/cars_ads/Car2.svg';
 import Rings from "../assets/images/cars_ads/BG_circle.svg";
 import Arrow from '../assets/images/cars_ads/BG_arrow.svg';
+import PickUpAndDropOff from '../components/PickUpAndDropOff';
 
 
 const Home = () => {
@@ -28,6 +29,8 @@ const Home = () => {
               bg_color={'bg-primary'}            
             />
         </div>
+        <PickUpAndDropOff/>
+        
 
 
 
