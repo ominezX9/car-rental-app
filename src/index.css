@@ -24,6 +24,12 @@
 .text-primary{
   @apply text-[#3563E9];
 }
+.bg-primary{
+  @apply bg-[#3563E9];
+}
+.bg-secondary{
+  @apply bg-[#5CAFFC];
+}
 .bg-danger{
   @apply bg-[#FF4423]
 }
