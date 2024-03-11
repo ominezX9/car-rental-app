@@ -5,6 +5,7 @@ import CarTwo from '../assets/images/cars_ads/Car2.svg';
 import Rings from "../assets/images/cars_ads/BG_circle.svg";
 import Arrow from '../assets/images/cars_ads/BG_arrow.svg';
 import PickUpAndDropOff from '../components/PickUpAndDropOff';
+import CarsRender from '../components/parts/cars-render';
 
 
 const Home = () => {
@@ -30,7 +31,7 @@ const Home = () => {
             />
         </div>
         <PickUpAndDropOff/>
-        
+        <CarsRender/>
 
 
 

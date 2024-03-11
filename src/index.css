@@ -24,6 +24,9 @@
 .text-primary{
   @apply text-[#3563E9];
 }
+.text-grey{
+  @apply text-[#90A3BF];
+}
 .bg-primary{
   @apply bg-[#3563E9];
 }
