@@ -7,11 +7,11 @@ import CFC from '../../assets/icons/mini-car-icons/gas-station.svg';
 import CType from '../../assets/icons/mini-car-icons/Car.svg';
 import Capacity from '../../assets/icons/mini-car-icons/profile-2user.svg';
 
-const CarCards = ({name, brand, image, fuel_capacity, car_type, capactiy}) => {
+const CarCards = ({name, brand, image, liked, fuel_capacity, car_type, capactiy, discount, price}) => {
     const [toggle, setToggle] = React.useState(false)
     const handleToggle = () =>  { setToggle(!toggle) }
     return (
-        <div className='p-5 pt-3 bg-white basis-[23%] rounded-[5px]'>
+        <div className='p-5 pt-3 bg-white basis-[23%] rounded-[5px] mb-10'>
             <div className="title flex justify-between">
                 <div className="specs">
                     <div className="carname text-lg font-bold">{name}</div>
@@ -19,14 +19,14 @@ const CarCards = ({name, brand, image, fuel_capacity, car_type, capactiy}) => {
                 </div>
                 <div className="fav">
                     <button className="relative p-1 w-[20px]" onClick={handleToggle}>
-                        <img className={'absolute w-full top-50% left-50% translate-x-[-50%] translate-y-[-50%]'} src={toggle ? Like : Unlike} alt="add_to_fav"/>
+                        <img className={'absolute w-full top-50% left-50% translate-x-[-50%] translate-y-[-50%]'} src={toggle || liked ? Like : Unlike} alt="add_to_fav"/>
                     </button>
                 </div>
             </div>
-            <div className="caritsself mt-6 mb-5">
-                <div className=" relative flex-and-center display  h-[100px]">
-                    <img src={image} width={'80%'} alt="" />
-                    <img className='absolute left-[-1px] bottom-0 right-[-5px]' width={'150%'} src={Shadow} alt="" />
+            <div className="caritsself mt-6 mb-5 cursor-pointer">
+                <div className="group relative flex-and-center display h-[120px]">
+                    <img src={image} className="group-hover:w-[88%] transition-all ease-in-out" width={'80%'} alt={'car_image'} />
+                    <img className='absolute left-[-1px] bottom-0 group-hover:bottom-[-13px] right-[-5px] transition-all ease-in-out' width={'150%'} src={Shadow} alt="" />
                 </div>
             </div>
             <div className="info flex justify-between">
@@ -53,8 +53,8 @@ const CarCards = ({name, brand, image, fuel_capacity, car_type, capactiy}) => {
 
             <div className='pays mt-5 mb-1 flex justify-between items-center'>
                 <div className="price">
-                    <h1 className='font-[900] text-lg'>$99.00/<span className='text-grey text-xs'> day</span></h1>
-                    <p className="strike font-bold text-xs text-grey line-through">$100.00</p>
+                    <h1 className='font-[900] text-lg'>${price}.00/<span className='text-grey text-xs'> day</span></h1>
+                    { discount === null ?  ("") : (<p className="strike font-bold text-xs text-grey line-through">${discount}.00</p>)}
                 </div>
                 <button className='bg-primary text-white py-2 px-[14px] rounded-[5px] text-sm font-bold basis-[1/2]'>
                     Rent Now

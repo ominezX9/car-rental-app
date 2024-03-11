@@ -1,0 +1,137 @@
+{
+    "data" : [
+        {
+            "name": "Keonigsegg", 
+            "brand" : "Sport", 
+            "liked" : true,
+            "image": "src/assets/images/all_cars/Car1.svg",
+            "fuel_cap" : 90,
+            "type": "Manual",
+            "capacity": 2,
+            "price": "99",
+            "discount": null
+        },
+        {
+            "name": "Nissan GT-R", 
+            "brand" : "Sport", 
+            "liked" : true,
+            "image" : "src/assets/images/all_cars/Car2.svg",
+            "fuel_cap" : 80,
+            "type": "Manual",
+            "capacity": 2,
+            "price": "80",
+            "discount": "100"
+        },
+        {
+            "name": "Rolls - Royce", 
+            "brand" : "Sedan", 
+            "liked" : false,
+            "image" : "src/assets/images/all_cars/Car3.svg",
+            "fuel_cap" : 70,
+            "type": "Manual",
+            "capacity": 4,
+            "price": "96",
+            "discount": null
+        },
+        
+        {
+            "name": "Nissan GT-R", 
+            "brand" : "Sport", 
+            "liked" : true,
+            "image" : "src/assets/images/all_cars/Car4.svg",
+            "fuel_cap" : 80,
+            "type": "Manual",
+            "capacity": 2,
+            "price": "80",
+            "discount": "100"
+        },
+        {
+            "name": "All New Rush", 
+            "brand" : "SUV", 
+            "liked" : false,
+            "image" : "src/assets/images/all_cars/Car5.svg",
+            "fuel_cap" : 70,
+            "type": "Manual",
+            "capacity": 6,
+            "price": "72",
+            "discount": "80"
+        },
+        {
+            "name": "CR - V", 
+            "brand" : "SUV", 
+            "liked" : true,
+            "image" : "src/assets/images/all_cars/Car6.svg",
+            "fuel_cap" : 80,
+            "type": "Automatic",
+            "capacity": 6,
+            "price": "80",
+            "discount": null
+        },
+        {
+            "name": "All New Terlos", 
+            "brand" : "SUV", 
+            "liked" : false,
+            "image" : "src/assets/images/all_cars/Car7.svg",
+            "fuel_cap" : 90,
+            "type": "Automatic",
+            "capacity": 6,
+            "price": "74",
+            "discount": null
+        },
+        {
+            "name": "CR - V", 
+            "brand" : "SUV", 
+            "liked" : true,
+            "image" : "src/assets/images/all_cars/Car8.svg",
+            "fuel_cap" : 80,
+            "type": "Manual",
+            "capacity": 6,
+            "price": "80",
+            "discount": null
+        },
+        {
+            "name": "MG ZX Exclusive", 
+            "brand" : "HackBack", 
+            "liked" : true,
+            "image" : "src/assets/images/all_cars/Car9.svg",
+            "fuel_cap" : 70,
+            "type": "Automatic",
+            "capacity": 4,
+            "price": "76",
+            "discount": "80"
+        },
+        {
+            "name": "New MG ZS", 
+            "brand" : "SUV", 
+            "liked" : false,
+            "image" : "src/assets/images/all_cars/Car10.svg",
+            "fuel_cap" : 80,
+            "type": "Automatic",
+            "capacity": 6,
+            "price": "80",
+            "discount": null
+        },
+        {
+            "name": "MG ZX Excite", 
+            "brand" : "HackBack", 
+            "liked" : true,
+            "image" : "src/assets/images/all_cars/Car11.svg",
+            "fuel_cap" : 90,
+            "type": "Manual",
+            "capacity": 4,
+            "price": "74",
+            "discount": null
+        },
+        {
+            "name": "New MG Z-Ultra", 
+            "brand" : "SUV", 
+            "liked" : false,
+            "image" : "src/assets/images/all_cars/Car12.svg",
+            "fuel_cap" : 80,
+            "type": "Manual",
+            "capacity": 6,
+            "price": "80",
+            "discount": null
+        }
+    ]
+}
