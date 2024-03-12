@@ -37,7 +37,7 @@ const CarCards = ({name, brand, image, liked, fuel_capacity, car_type, capactiy,
             <div className="caritsself mt-6 mb-5 cursor-pointer">
                 <div className="group relative flex-and-center display h-[120px]">
                     <img src={`./all_cars/${image}`} className="group-hover:w-[88%] transition-all ease-in-out" width={'80%'} alt={'car_image'} />
-                    <img className='absolute left-[-1px] bottom-0 group-hover:bottom-[-13px] right-[-5px] transition-all ease-in-out' width={'150%'} src={Shadow} alt="" />
+                    <img className='absolute left-[-1px] sm:bottom-[10px] bottom-[0px] group-hover:bottom-[-13px] right-[-5px] transition-all ease-in-out' width={'150%'} src={Shadow} alt="" />
                 </div>
             </div>
             <div className="info flex justify-between">
