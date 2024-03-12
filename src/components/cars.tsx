@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from 'react'
+
 import CarCards from './parts/car-cards';
 // import CarData from './data/cars.json';
 
 
-const Cars = ({Cars}) => {
+const Cars = ({Cars} : any) => {
 
 
   console.log(Cars)
   return (
     <div className='flex flex-row flex-wrap items-between justify-between'> 
-      { Cars.map( car => (
+      { Cars.map( (car: { name: string; brand: string; image: string; liked: boolean; fuel_cap: number; type: string; capacity: number; discount: string | null; price: string; }) => (
         <CarCards 
           name={car?.name} 
           brand={car?.brand} 

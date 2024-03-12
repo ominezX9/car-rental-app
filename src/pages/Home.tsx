@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Ad from '../components/ad';
 import CarOne from '../assets/images/cars_ads/Car1.svg';
 import CarTwo from '../assets/images/cars_ads/Car2.svg';

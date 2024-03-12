@@ -2,12 +2,23 @@ import React from 'react'
 import Like from '../../assets/icons/mini-car-icons/heart.svg';
 import Unlike from '../../assets/icons/mini-car-icons/not-heart.svg';
 import Shadow from '../../assets/images/shadow.png';
-import Car1 from '../../assets/images/all_cars/Car1.svg';
 import CFC from '../../assets/icons/mini-car-icons/gas-station.svg';
 import CType from '../../assets/icons/mini-car-icons/Car.svg';
 import Capacity from '../../assets/icons/mini-car-icons/profile-2user.svg';
 
-const CarCards = ({name, brand, image, liked, fuel_capacity, car_type, capactiy, discount, price}) => {
+interface CarCardsProps{
+    name : string, 
+    brand : string, 
+    image : string, 
+    liked : boolean, 
+    fuel_capacity : number, 
+    car_type : string, 
+    capactiy : number, 
+    discount : string | null, 
+    price : string
+}
+
+const CarCards = ({name, brand, image, liked, fuel_capacity, car_type, capactiy, discount, price} : CarCardsProps) => {
     const [toggle, setToggle] = React.useState(false)
     const handleToggle = () =>  { setToggle(!toggle) }
     return (

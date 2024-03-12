@@ -1,4 +1,3 @@
-import React from 'react';
 import Search from '../assets/icons/search-normal.svg';
 import Filter from '../assets/icons/filter.svg';
 import Heart from '../assets/icons/heart.svg';

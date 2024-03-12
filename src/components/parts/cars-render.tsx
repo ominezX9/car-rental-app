@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Cars from '../cars';
-
-const Header = ({title}) =>{
+interface HeaderProps{
+  title: string
+}
+const Header = ({title}  : HeaderProps) =>{
     return(
         <div className="flex cars-header justify-between">
             <div className="p-4 title text-grey font-bold">
@@ -33,10 +35,10 @@ const CarsRender = () => {
   console.log(PopularCar);
   return (
     <div className='mt-6'>
-      <Header title={'Popular Car'} />
+      <Header title='Popular Car' />
       {loading ? "Loading" : (<Cars Cars={PopularCar}/>)}
 
-      <Header title={'Recommendation Car'} />
+      <Header title='Recommendation Car' />
       {loading ? "Loading" : (<Cars Cars={RecommendCar}/>)}
 
     </div>
